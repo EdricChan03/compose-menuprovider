@@ -5,6 +5,8 @@ plugins {
 
     alias(libs.plugins.detekt)
 
+    alias(libs.plugins.dokkatoo.html)
+
     id("maven-publish")
 }
 group = "io.github.boswelja.menuprovider"
